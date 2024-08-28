@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RestController;
 public class MetadataController {
 
     @GetMapping("/metadata")
-    public String getMetadata(@RequestParam String url1) {
-        return url1;
+    public String getMetadata(@RequestParam String url) {
+        return url;
     }
 }
 
